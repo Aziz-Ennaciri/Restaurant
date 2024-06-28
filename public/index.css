@@ -1,0 +1,162 @@
+.section1 {
+    background-image: url('images/food.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 90vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   
+    
+}
+header{
+
+    width: 100%;
+    top: 0;
+    position: absolute;
+
+    padding: 1% 3% ;
+    border-radius: 5px;
+    
+    
+  }
+  
+
+h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: rgb(212, 170, 151);
+    color: #000000;
+    border: none;
+    border-radius: 9px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.part {
+    border-radius: 5px;
+    box-shadow: 0px 0px 9px rgba(0, 0, 0, 0.5); 
+    display: flex;
+    align-items: center; 
+    background-color: rgba(128, 128, 128, 0.088);
+    border-radius: 10px;
+    padding: 25px;
+}
+.part1{
+    left: 250px;
+    z-index: 1;
+    position: relative;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+    background-color: rgba(128, 128, 128, 0.177);
+}
+
+.part2{
+   height: 41%;
+   width: 41%;
+   
+}
+#section{
+    height: 50vh;
+    width: 80vh;
+    border-radius: 10px;
+}
+/* .part {
+    display: flex;
+    align-items: center; 
+}
+
+.part1 {
+    flex: 1; 
+    padding: 20px; 
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5); 
+}
+
+.part2 {
+    flex: 1; 
+    padding: 20px; 
+    text-align: center; 
+} */
+footer{
+    
+}
+
+
+body {
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+  }
+  .cd__main{
+     display: block !important;
+    background: #4AC29A;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #BDFFF3, #4AC29A);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #BDFFF3, #4AC29A) !important; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 1.5em;
+  }
+  
+  h2 {
+    text-align: center;
+    color: #555;
+    margin-bottom: 0;
+  }
+  
+  .carousel {
+    padding: 20px;
+    perspective: 500px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .carousel > * {
+    flex: 0 0 auto;
+  }
+  .carousel figure {
+    margin: 0;
+    width: 40%;
+    transform-style: preserve-3d;
+    transition: transform 0.5s;
+  }
+  .carousel figure img {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 0px;
+  }
+  .carousel figure img:not(:first-of-type) {
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+  .carousel nav {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0 0;
+  }
+  .carousel nav button {
+    flex: 0 0 auto;
+    margin: 0 5px;
+    cursor: pointer;
+    color: #333;
+    background: none;
+    border: 1px solid;
+    letter-spacing: 1px;
+    padding: 5px 10px;
+  }
