@@ -3,20 +3,16 @@
 namespace App\Http\Controllers\Frontend;
 
 use App\Http\Controllers\Controller;
-use App\Models\Category;
+use App\Models\Menu;
 use Illuminate\Http\Request;
 
 class WelcomeController extends Controller
 {
     public function index()
     {
-        $specials = Category::where('name', 'specials')->first();
+        $menus = Menu::all(); 
 
-        if ($specials) {
-            return view('welcome', compact('specials'));
-        } else {
-            return view('welcome')->with('message', 'No specials available');
-        }
+        return view('welcome', compact('menus'));
     }
 
     public function thankyou()

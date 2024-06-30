@@ -2,10 +2,9 @@
 
 namespace App\Enums;
 
-
-enum TableStatus:String 
+enum TableStatus: String
 {
     case Pending = 'Pending';
-    case Avaliable = 'avaliable';
-    case Unavaliable = 'unavaliable';
+    case Available = 'Available'; 
+    case Unavailable = 'Unavailable'; 
 }

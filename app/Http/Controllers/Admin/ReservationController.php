@@ -26,7 +26,7 @@ class ReservationController extends Controller
      */
     public function create()
     {
-        $tables = Table::where('status',TableStatus::Avaliable)->get();
+        $tables = Table::where('status',TableStatus::Available)->get();
         return view('admin.reservations.create',compact('tables'));
     }
 
