@@ -41,7 +41,7 @@ class ReservationController extends Controller
         }
         $request_date = Carbon::parse($request->res_date);
         foreach ($table->reservation ?? [] as $res) {
-            $res_date = Carbon::parse($res->res_date); // Convert the string to a DateTime object
+            $res_date = Carbon::parse($res->res_date); 
             if ($res_date->format('Y-m-d') == $request_date->format('Y-m-d')) {
                 return back()->with('warning', 'This table is reserved for this date');
             }

@@ -15,7 +15,7 @@
     @vite('resources/css/app.css')
 
     <!-- Scripts -->
-    @vite('resources/js/app.js')>
+    @vite('resources/js/app.js')
 </head>
 
 <body>
@@ -46,9 +46,9 @@
                 <a class="text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-500 hover:text-green-400"
                     href="/">Home</a>
                 <a class="text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-500 hover:text-green-400"
-                    href={{-- "{{ route('categories.index') }}" --}}>Categories</a>
+                    href="{{ route('categories.index') }}">Categories</a>
                 <a class="text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-500 hover:text-green-400"
-                    href={{-- "{{ route('menus.index') }}" --}}>Our Menu</a>
+                    href="{{ route('menus.index') }}">Our Menu</a>
                 <a class="text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-500 hover:text-green-400"
                     href={{-- "{{ route('reservations.step.one') }}" --}}>Make Reservation</a>
 
