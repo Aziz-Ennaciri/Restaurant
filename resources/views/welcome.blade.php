@@ -39,7 +39,7 @@
                         <br> <B>Feel free to adjust this to better fit the tone and ethos of ZeeraFOOD as you envision it!</B>   
                         </p>
                         <div class="relative flex">
-                            <a href="#_"
+                            <a href="{{ route('about-us') }}"
                                 class="flex items-center w-full px-6 py-3 mb-3 text-lg text-white bg-green-600 rounded-md sm:mb-0 hover:bg-green-700 sm:w-auto">
                                 Read More
                                 <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 ml-1" viewBox="0 0 24 24"

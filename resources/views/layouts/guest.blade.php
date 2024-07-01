@@ -63,7 +63,7 @@
             <div class="flex flex-wrap justify-center">
                 <ul class="flex items-center space-x-4 text-white">
                     <li><a href="/">Home</a></li>
-                    <li><a href="{{ route('about-us') }}"">About</a></li>
+                    <li><a href="{{ route('about-us') }}">About</a></li>
                     <li><a href="{{route('contact')}}">Contact</a></li>
                     <li><a href="#">Terms</a></li>
                 </ul>
