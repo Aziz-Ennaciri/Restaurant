@@ -4,12 +4,10 @@
         style="background-image: url('https://cdn.pixabay.com/photo/2016/11/18/14/39/beans-1834984_960_720.jpg')">
         <h1
             class="font-mono text-3xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-500 md:text-center sm:leading-none lg:text-5xl">
-            <span class="inline md:block">Welcome To Larainfo Restaurant</span>
+            <span class="inline md:block">Welcome To ZeeraFOOD Restaurant</span>
         </h1>
         <div class="mx-auto mt-2 text-green-50 md:text-center lg:text-lg">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta voluptatem ab necessitatibus illo
-            praesentium
-            culpa excepturi quae commodi quaerat,
+            Where Flavor Meets Passion, Every Dish Tells a Story
         </div>
         <div class="flex flex-col items-center mt-12 text-center">
             <span class="relative inline-flex w-full md:w-auto">
@@ -33,11 +31,12 @@
                         <h2 class="text-4xl text-green-600">Welcome</h2>
                         <!-- </h1> -->
                         <p class="mx-auto text-base text-gray-500 sm:max-w-md lg:text-xl md:max-w-3xl">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus nemo incidunt
-                            praesentium, ipsum
-                            culpa minus eveniet, id nesciunt excepturi sit voluptate repudiandae. Explicabo, incidunt
-                            quia.
-                            Repellendus mollitia quaerat est voluptas!
+                            At ZeeraFOOD, our journey began with a simple yet profound passion for authentic flavors and 
+                            unforgettable dining experiences. Founded on the principles of quality ingredients, culinary expertise, 
+                            and warm hospitality, we invite you to savor a journey through our diverse menu crafted with care and creativity. 
+                            Whether you’re here for a casual meal or a special occasion, every dish at ZeeraFOOD reflects our commitment to excellence
+                            and a celebration of flavors that resonate with every bite. Welcome to ZeeraFOOD, where every meal tells a story of passion, flavor, and tradition.
+                        <br> <B>Feel free to adjust this to better fit the tone and ethos of ZeeraFOOD as you envision it!</B>   
                         </p>
                         <div class="relative flex">
                             <a href="#_"
@@ -144,7 +143,7 @@
         
         
     </section>
-    <section class="pt-4 pb-12 bg-gray-800">
+    {{-- <section class="pt-4 pb-12 bg-gray-800">
         <div class="my-16 text-center">
             <h2 class="text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-500">
                 Testimonial </h2>
@@ -203,5 +202,5 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> --}}
 </x-guest-layout>
