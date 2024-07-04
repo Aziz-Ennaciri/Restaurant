@@ -1,13 +1,13 @@
 <x-guest-layout>
     <div class="max-w-5xl max-lg:max-w-3xl mx-auto bg-white my-6 font-[sans-serif]">
         <div class="text-center px-6">
-            <h2 class="text-gray-800 text-3xl font-extrabold">Contact Us</h2>
+            <h2 class="text-blue-600 text-3xl font-extrabold ">Contact Us</h2>
             <p class="text-sm text-gray-500 mt-4">Have some big idea or brand to develop and need help?</p>
         </div>
 
         <div class="grid lg:grid-cols-3 items-start gap-4 p-2 shadow-[0_2px_10px_-3px_rgba(6,81,237,0.3)] rounded-lg mt-12">
 
-            <div class="bg-[#011c2b] rounded-lg p-6 h-full max-lg:order-1">
+            <div class="bg-blue-600 rounded-lg p-6 h-full max-lg:order-1">
                 <h2 class="text-xl text-white">Contact Information</h2>
                 <p class="text-sm text-gray-300 mt-4">Have some big idea or brand to develop and need help?</p>
 
@@ -155,7 +155,9 @@
                             </svg>
                         </div>
 
-                        <div class="col-span-full">
+
+                         {{-- this is type slect option of an subject in a  contact --}}   
+                        {{-- <div class="col-span-full">
                             <h6 class="text-sm text-gray-800">Select Subject</h6>
                             <div class="flex max-lg:flex-col gap-6 mt-4">
                                 <div class="flex items-center">
@@ -185,7 +187,10 @@
                                     <p class="text-sm text-gray-500 ml-4">Website Feedback</p>
                                 </div>
                             </div>
-                        </div>
+                        </div> --}}
+
+
+
                     </div>
 
                     <button type="button"
